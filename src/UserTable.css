@@ -1,0 +1,54 @@
+.UserTable {
+  font-family: Arial, sans-serif;
+  margin: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+td {
+  text-align: left;
+  padding: 12px;
+}
+
+td:first-child {
+  text-align: center;
+}
+
+.create-user-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 4px;
+  display: inline-block;
+}
